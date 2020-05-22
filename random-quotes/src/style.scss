@@ -1,0 +1,53 @@
+$main-fonts: Arial, sans-serif;
+body{
+  background: rgb(171, 160, 197);
+  font-family: $main-fonts;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+#quote-box{
+  background: white;
+  border-radius: 5px;
+  height: 250px;
+  width: 450px;
+  padding: 40px 40px;
+  font-size: 1.3rem;
+  display: table;
+  
+}
+
+#text{
+  padding-bottom: 5px;
+}
+
+#author{
+  font-size: 0.9rem;
+  text-align: right;
+  
+}
+
+#new-quote{
+  float: right;
+  color: white;
+  background: rgb(171, 160, 197);
+}
+
+.buttons{
+  display: block;
+  margin: auto;
+}
+
+i{
+  color: white;
+}
+
+#tumblr-quote{
+  background: rgb(171, 160, 197);
+}
+
+#tweet-button{
+  background: rgb(171, 160, 197);
+}
